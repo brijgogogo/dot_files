@@ -75,6 +75,7 @@ plugins=(
   zsh-z	
   zsh-vi-mode
   # https://github.com/jeffreytse/zsh-vi-mode
+  tmux
 )
 # bindkey -v
 
@@ -119,4 +120,4 @@ function zvm_after_init() {
   zvm_bindkey viins '^ ' autosuggest-accept
 }
 
-
+export ZSH_TMUX_AUTOSTART=true
