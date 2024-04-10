@@ -79,6 +79,8 @@ plugins=(
 )
 # bindkey -v
 
+
+ZSH_TMUX_AUTOSTART="true"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -120,4 +122,3 @@ function zvm_after_init() {
   zvm_bindkey viins '^ ' autosuggest-accept
 }
 
-export ZSH_TMUX_AUTOSTART=true
