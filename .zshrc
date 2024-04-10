@@ -79,8 +79,9 @@ plugins=(
 )
 # bindkey -v
 
-
-ZSH_TMUX_AUTOSTART="true"
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
+ZSH_TMUX_AUTOCONNECT=false
+ZSH_TMUX_AUTOSTART=true
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
