@@ -116,7 +116,11 @@
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        // "format": "{}% "
+        "interval": 30,
+        "format": "  {}%",
+        "format-alt":" {used:0.1f}G",
+        "max-length": 10
     },
     "temperature": {
         // "thermal-zone": 2,
